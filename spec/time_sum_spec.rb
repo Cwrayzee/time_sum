@@ -7,7 +7,7 @@ describe 'Adding minutes to set time' do
     expect(time_sum("9:00 AM", 15)).to eq("9:15 AM")
   end
 
-  it 'should raise RuntimeError error if format is not a valid time' do
+  it 'should raise RuntimeError error if format is not a valid time period' do
     expect{time_sum("9:00 CM", 10)}.to raise_error(RuntimeError)
   end
 
