@@ -1,0 +1,19 @@
+As a user I want to add a number of minutes to a time represented as a String.
+
+Without using any built-in date or time functions, write a function or method
+that accepts two mandatory arguments along with tests to verify functionality.
+
+The first argument of the function is a 12-hour time string with the format "[H]H:MM
+{AM|PM}", and the second argument is a signed integer indicating the number of
+minutes to add to the time given in the first argument.
+
+The return value should
+be a string of the same format as the first argument.
+
+For example, AddMinutes("9:10 AM", 200) would return "12:30 PM".
+Use any mainstream language you want, though Java, Javascript (ES2017),
+Ruby, Scala, Swift, and Python are particularly relevant to us.
+
+Please
+include tests and submit your assessment as a zip file.
+
